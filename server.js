@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const app = express();
 app.use(express.json());
 
-const PANEL_URL = 'https://gobounceadmin.base44.app/.base44.app';
+const PANEL_URL = 'https://gobounceadmin.base44.app';
 const API_KEY = process.env.PANEL_API_KEY; // set this in Railway env vars
 
 const headers = {
